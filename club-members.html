@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Members</title>
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<main class="page-content">
+
+<body>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="element-checker.html">Element Checker</a>
+        <a href="club-members.html">Club Members</a>
+        <a href="meet-creator.html">Meet the Creator</a>
+    </nav>
+
+    <div>
+        <h1>Valorant</h1>
+        <p>Add a new member:</p>
+            <form>
+                <input type="text" id="username" placeholder="Enter username"><br>
+                <input type="text" id="gamertag" placeholder="Enter gamer tag"><br>
+                <input type="button" py-click="addmember" value="Add"><br>
+            </form>
+
+        <h3>All members</h3>
+        <div id="results"></div>
+
+    <py-script src="main1.py"></py-script>
+</body>
+
+</main>
+
+</html>
